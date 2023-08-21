@@ -1,3 +1,4 @@
-t = (1,2,[30,40])
-t[2] += [5,6]
-print(t)
+from types import MappingProxyType
+d={1:'a'}
+d_proxy = MappingProxyType(d)
+print(d_proxy)
