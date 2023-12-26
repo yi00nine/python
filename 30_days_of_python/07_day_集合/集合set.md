@@ -149,5 +149,7 @@ st2.symmetric_difference(st1) # {'item1', 'item4'}
 如果两个集合没有一个或多个共同项，我们就称它们为不相交集合。我们可以使用 isdisjoint() 方法检查两个集合是联合还是不联合。
 
 ```
-
+st1 = {'item1', 'item2', 'item3', 'item4'}
+st2 = {'item2', 'item3'}
+st2.isdisjoint(st1) # False
 ```
